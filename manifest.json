@@ -1,0 +1,10 @@
+{
+  "name": "Fruityy's Little World",
+  "short_name": "Fruityy 🍓",
+  "description": "A tiny little world made especially for Fruityy ❤️",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fff8fb",
+  "theme_color": "#ef5b84",
+  "orientation": "portrait"
+}
