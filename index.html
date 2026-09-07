@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Fruityy's Little World 🍓</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <!-- Animated background -->
+
+    <div class="background">
+
+        <div class="floating floating-1">🍓</div>
+        <div class="floating floating-2">♡</div>
+        <div class="floating floating-3">✨</div>
+        <div class="floating floating-4">🌸</div>
+        <div class="floating floating-5">💗</div>
+        <div class="floating floating-6">🍓</div>
+        <div class="floating floating-7">✨</div>
+
+    </div>
+
+
+    <main class="app">
+
+
+        <!-- =========================
+             HOME
+        ========================== -->
+
+        <section
+            id="homeScreen"
+            class="screen active"
+        >
+
+            <div class="strawberry-logo">
+                🍓
+            </div>
+
+
+            <p class="eyebrow">
+                A tiny world made for
+            </p>
+
+
+            <h1>
+                Fruityy
+            </h1>
+
+
+            <div class="divider">
+                ✦
+            </div>
+
+
+            <p
+                id="dailyMessage"
+                class="message"
+            >
+                You are capable of beautiful things.
+            </p>
+
+
+            <button
+                id="startButton"
+                class="main-button"
+            >
+
+                <span>
+                    Enter Fruityy's World
+                </span>
+
+                <span class="button-heart">
+                    ❤️
+                </span>
+
+            </button>
+
+
+            <p class="tiny-note">
+                A little reminder that someone believes in you. ✨
+            </p>
+
+        </section>
+
+
+
+        <!-- =========================
+             GAME
+        ========================== -->
+
+        <section
+            id="gameScreen"
+            class="screen game-screen"
+        >
+
+            <div class="game-top">
+
+                <div class="game-title">
+
+                    <p>
+                        🍓 FRUITYY'S LITTLE GAME
+                    </p>
+
+                    <h2>
+                        Catch the Hearts
+                    </h2>
+
+                </div>
+
+
+                <div class="scores">
+
+                    <div class="score-item">
+
+                        <span>
+                            SCORE
+                        </span>
+
+                        <strong id="score">
+                            0
+                        </strong>
+
+                    </div>
+
+
+                    <div class="score-item high-score">
+
+                        <span>
+                            BEST
+                        </span>
+
+                        <strong id="highScore">
+                            0
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="game-info">
+
+                <span>
+                    💗 Catch as many as you can
+                </span>
+
+                <span id="combo">
+                    Combo ×0
+                </span>
+
+            </div>
+
+
+            <div
+                id="gameArea"
+                class="game-area"
+            >
+
+                <div
+                    id="gameHint"
+                    class="game-hint"
+                >
+
+                    <span>
+                        Tap the hearts ❤️
+                    </span>
+
+                    <small>
+                        They won't stay forever...
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <div class="game-bottom">
+
+				<div class="miss-display">
+					<span>Missed</span>
+
+					<div id="misses">
+						❤️ ❤️ ❤️ ❤️
+					</div>
+				</div>
+
+			</div>
+
+        </section>
+
+
+
+        <!-- =========================
+             RESULT
+        ========================== -->
+
+        <section
+            id="winScreen"
+            class="screen"
+        >
+
+            <div class="celebration">
+                ✨
+            </div>
+
+
+            <p class="eyebrow">
+                Look at you! 🍓
+            </p>
+
+
+            <h1>
+                Amazing!
+            </h1>
+
+
+            <div class="final-score">
+
+                <span>
+                    Your Score
+                </span>
+
+                <strong id="finalScore">
+                    0
+                </strong>
+
+            </div>
+
+
+            <div class="quote-card">
+
+                <div class="quote-icon">
+                    💗
+                </div>
+
+                <p id="winMessage"></p>
+
+            </div>
+
+
+            <button
+                id="playAgainButton"
+                class="main-button"
+            >
+                Play Again ❤️
+            </button>
+
+
+            <button
+                id="homeButton"
+                class="secondary-button"
+            >
+                Go Home
+            </button>
+
+        </section>
+
+
+
+        <!-- =========================
+             BIRTHDAY
+        ========================== -->
+
+        <section
+            id="birthdayScreen"
+            class="screen birthday-screen"
+        >
+
+            <div class="birthday-sparkles">
+                ✨ 🎈 ✨
+            </div>
+
+
+            <div class="birthday-icon">
+                🎂
+            </div>
+
+
+            <p class="birthday-small">
+                Today is different...
+            </p>
+
+
+            <h1>
+                Happy Birthday
+                <br>
+                Fruityy ❤️
+            </h1>
+
+
+            <div class="birthday-divider">
+                🌸 ✦ 🌸
+            </div>
+
+
+            <div class="birthday-message">
+
+                <p>
+                    Today isn't just another day.
+                </p>
+
+                <p>
+                    Today is a reminder of how
+                    wonderful it is that you exist.
+                </p>
+
+                <p>
+                    Keep dreaming.
+                    Keep growing.
+                    Keep smiling.
+                </p>
+
+            </div>
+
+
+            <button
+                id="birthdayStartButton"
+                class="birthday-button"
+            >
+                Enter your special day ✨
+            </button>
+
+        </section>
+
+
+
+        <!-- =========================
+             BIRTHDAY FINAL
+        ========================== -->
+
+        <section
+            id="birthdayFinalScreen"
+            class="screen birthday-screen"
+        >
+
+            <div class="birthday-icon">
+                🌸
+            </div>
+
+
+            <h1>
+                For Fruityy
+            </h1>
+
+
+            <div class="birthday-final-message">
+
+                <p>
+                    I hope this new year of your life
+                    gives you more reasons to smile.
+                </p>
+
+                <p>
+                    Chase the things that make you happy.
+                    Don't be afraid of big dreams.
+                    And never underestimate yourself.
+                </p>
+
+                <p>
+                    You have so much ahead of you.
+                    More memories.
+                    More adventures.
+                    More beautiful moments.
+                </p>
+
+                <strong>
+                    Happy Birthday, Fruityy. ❤️
+                </strong>
+
+            </div>
+
+
+            <button
+                id="birthdayGameButton"
+                class="birthday-button"
+            >
+                Play your birthday game 🎮
+            </button>
+
+        </section>
+
+
+    </main>
+
+
+    <script src="game.js"></script>
+
+</body>
+
+</html>
